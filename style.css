@@ -234,7 +234,7 @@ span {
 .sql-bar {
   width: 82%;
 }
-.Tech-Skills-content {
+.tech-skills-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   justify-content: center;
@@ -272,7 +272,7 @@ span {
 .tech-skills-box:hover .bx{
   color: #22cf91;
 }
-.tech-skills a {
+.tech-skills-box a {
   color: var(--main-color);
   font-size: var(--p-font);
   font-weight: 500;
