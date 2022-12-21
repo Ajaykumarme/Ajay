@@ -220,25 +220,28 @@ span {
   border-radius: 0.5rem;
 }
 .html-bar {
-  width: 94%;
+  width: 85%;
 }
 .css-bar {
-  width: 84%;
+  width: 75%;
 }
 .js-bar {
-  width: 74%;
+  width: 70%;
 }
-.react-bar {
+.Python-bar {
   width: 80%;
 }
-.services-content {
+.SQL-bar {
+  width: 82%;
+}
+.Tech-Skills-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   justify-content: center;
   gap: 1rem;
   margin-top: 2rem;
 }
-.services-box {
+.Tech-Skills-box {
   padding: 20px;
   width: 260px;
   display: flex;
@@ -249,32 +252,32 @@ span {
   border-bottom: 2px solid var(--main-color);
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
-.services-box:hover{
+.Tech-Skills-box:hover{
  background-color: #02225a;
 }
 
-.services-box h3 {
+.Tech-Skillss-box h3 {
   font-size: 1rem;
   font-weight: 600;
   margin: 0.7rem 0 0.4rem;
 }
-.services-box:hover h3{
+.Tech-Skills-box:hover h3{
   color: #fff;
 }
-.services-box .bx {
+.Tech-Skills-box .bx {
   padding-top: 2rem;
   font-size: 54px;
   color: var(--main-color);
 }
-.services-box:hover .bx{
+.Tech-Skills-box:hover .bx{
   color: #22cf91;
 }
-.services-box a {
+.Tech-Skills a {
   color: var(--main-color);
   font-size: var(--p-font);
   font-weight: 500;
 }
-.services-box:hover a{
+.Tech-Skills-box:hover a{
   color: #8b8a8f;
 }
 .portfolio-content {
