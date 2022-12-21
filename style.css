@@ -220,19 +220,16 @@ span {
   border-radius: 0.5rem;
 }
 .html-bar {
-  width: 85%;
+  width: 94%;
 }
 .css-bar {
-  width: 75%;
+  width: 84%;
 }
 .js-bar {
-  width: 70%;
+  width: 74%;
 }
-.python-bar {
+.react-bar {
   width: 80%;
-}
-.sql-bar {
-  width: 82%;
 }
 .Tech-Skills-content {
   display: grid;
