@@ -226,10 +226,13 @@ span {
   width: 84%;
 }
 .js-bar {
-  width: 74%;
+  width: 70%;
 }
-.react-bar {
+.python-bar {
   width: 80%;
+}
+.sql-bar {
+  width: 82%;
 }
 .Tech-Skills-content {
   display: grid;
@@ -238,7 +241,7 @@ span {
   gap: 1rem;
   margin-top: 2rem;
 }
-.Tech-Skills-box {
+.tech-skills-box {
   padding: 20px;
   width: 260px;
   display: flex;
@@ -249,32 +252,32 @@ span {
   border-bottom: 2px solid var(--main-color);
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
-.Tech-Skills-box:hover{
+.tech-skills-box:hover{
  background-color: #02225a;
 }
 
-.Tech-Skillss-box h3 {
+.tech-skills-box h3 {
   font-size: 1rem;
   font-weight: 600;
   margin: 0.7rem 0 0.4rem;
 }
-.Tech-Skills-box:hover h3{
+.tech-skills-box:hover h3{
   color: #fff;
 }
-.Tech-Skills-box .bx {
+.tech-skills-box .bx {
   padding-top: 2rem;
   font-size: 54px;
   color: var(--main-color);
 }
-.Tech-Skills-box:hover .bx{
+.tech-skills-box:hover .bx{
   color: #22cf91;
 }
-.Tech-Skills a {
+.tech-skills a {
   color: var(--main-color);
   font-size: var(--p-font);
   font-weight: 500;
 }
-.Tech-Skills-box:hover a{
+.tech-skills-box:hover a{
   color: #8b8a8f;
 }
 .portfolio-content {
